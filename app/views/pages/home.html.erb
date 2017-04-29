@@ -1,6 +1,20 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<h1>SMS Sender</h1>
+
+<p>Welcome to SMS Sender! Send your free SMS in a couple of clicks. Just enter the phone number, write the message and click <b>Send</b>. Enjoy it! </p>
 
 <%= form_tag("/sms/send", method: "post") do %>
-<!-- add form elements here -->
+    
+    <h2>Enter the phone number </h2>
+    <%= telephone_field(:user, :phone) %>
+    
+    <h2>Enter your message here </h2> 
+    <%= text_area_tag(:message, "", size: "60x6") %>
+    
+    <p></p>    
+    <input type="submit" name="submit" value="Send"/> <!-- add form elements here --
 <% end %>
+
+ 
+    
+

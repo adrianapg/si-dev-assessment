@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+    Font-family: Verdana, sans-serif;
+    color: #d34cff;
+}
+h2 {
+    Font-family: Verdana,, sans-serif;
+    color: #d34cff;
+    font-size: 1em;
+}
+body {
+    Font-family: Verdana, sans-serif;
+    color: Black;
+    font-size: 1em;
+    background-color: #cbffcb
+    
+}
+
+textarea {
+    Font-family: Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #d34cff;
+      }
+    
+input {
+    Font-family: Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #d34cff;
+      }
