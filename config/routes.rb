@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   post 'sms/send', to: 'pages#sms'
   get '/signup', to: 'users#new'
   resources :users
+  resources :phones
 end
+  
